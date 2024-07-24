@@ -319,16 +319,18 @@ span{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 2.5rem;
+
 }
 .service-box{
     background-color: var(--main-color);
-    height: 100px;
+    height: 130px;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    width: 650px;
+    width: 400px;
     margin: auto;
+    
 }
 .service-box:hover{
     background: white;
@@ -354,7 +356,7 @@ span{
     font-size: 1.6rem;
     font-weight: 400;
     max-height: 100px;
-    margin: auto;
+    text-align: left;
 }
 
 .skills{
@@ -388,14 +390,14 @@ span{
     border: 5px solid var(--main-color);
     transform: scale(1.03);
 }
-.skills-box .service-info{
+.skills-box .sesvices-info{
     display: flex;
     flex-direction: column;
     text-align: left;
     max-height: 100px;
     justify-content: center;
     align-items: baseline;
-    padding: 5em;
+    padding: 5rem;
 }
 .skills-info h4{
     font-size: 4rem;
@@ -507,7 +509,7 @@ span{
     section{
         padding: 10rem 3% 2rem;
     }
-    .services{
+    .services .wrapper{
         padding-bottom: 7rem;
     }
     .skills .wrapper{
@@ -573,13 +575,13 @@ span{
         margin-top: 1rem;
         margin-bottom: 3rem;
     }
-    .services h2{
-        margin-bottom: 3rem;
-    }
-    .services-container{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .skills h4{
+   .services h4{
+          margin-bottom: 1rem;
+   }
+   .services-container{
+    grid-template-columns: repeat(1,1fr);
+   }
+    .skills h42{
         margin-bottom: 3rem;
     }
     .skills-container{
